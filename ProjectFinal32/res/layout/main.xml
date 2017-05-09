@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DevicePolicyDemoActivity" >
+
+    <ToggleButton
+        android:id="@+id/toggle_device_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="toggle_device_admin" />
+
+    <Button
+        android:id="@+id/button_lock_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:onClick="onClick"
+        android:text="@string/lock" />
+
+    <Button
+        android:id="@+id/button_reset_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:onClick="onClick"
+        android:text="@string/go_to" />
+
+    <Button
+        android:id="@+id/Go_to_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="7dp"
+        android:layout_marginBottom="86dp"
+        android:text="@string/update" />
+
+</LinearLayout>
