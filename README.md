@@ -1,0 +1,1 @@
+If anyone tries to breach your mobile security it takes picture of that person and sends it to a pre-set email and continously updates your mobile location. If someone gives 3 times wrong pattern or password the app takes it as security breach attemp.
